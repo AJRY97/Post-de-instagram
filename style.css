@@ -1,0 +1,94 @@
+body {
+    background: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.post-de-insta {
+    background: white;
+    width: 500px;
+    height: auto;
+    margin: auto;
+
+}
+
+.cabecera-post {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    padding: 5px 0px 0px 0px;
+}
+
+.nombre-perfil {
+    margin: 6px;
+    width: 100%;
+    height: 10%;
+}
+
+.post-de-insta img {
+    display: flex;
+    width: 100%;
+}
+
+.conf {
+    display: flex;
+    justify-content: flex-end;
+    margin: 8px;
+    font-size: 30px;
+}
+
+.perfil {
+    display: flex;
+    margin: 8px;
+    font-size: 30px;
+}
+
+.perfil {
+    background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+    /* Gradiente del borde */
+    border-radius: 50%;
+    /* Borde redondeado */
+    padding: 3px;
+    /* Grosor del borde */
+
+}
+
+.perfil .fa-rocket {
+    font-size: 36px;
+    /* Tamaño del icono */
+    background: white;
+    /* Color de fondo interno */
+    border-radius: 50%;
+    /* Borde redondeado interno */
+    padding: 8px 5px 1px 1px;
+}
+
+.iconos-post {
+    display: flex;
+    font-size: 26px;
+    margin: 10px;
+    align-items: center;
+    padding: 10px 0px 0px 5px;
+
+}
+
+.fa-heart {
+    display: flex;
+    width: 40px;
+}
+
+.fa-comment {
+    display: flex;
+    width: 40px;
+}
+
+.fa-paper-plane {
+    display: flex;
+    width: 78%;
+}
+
+.interacciones {
+    margin: 10px;
+    padding: 8px;
+}
